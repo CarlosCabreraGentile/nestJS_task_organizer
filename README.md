@@ -1,7 +1,7 @@
 ## NestJS Zero to Hero - Modern TypeScript Back-end Development
 ## Develop and deploy enterprise back-end applications following best practices using Node.js and TypeScript
 
-[LINK](https://www.udemy.com/course/nestjs-zero-to-hero/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_77879424134_._ad_535397245863_._kw__._de_c_._dm__._pl__._ti_dsa-1007766171312_._li_1000065_._pd__._&matchtype=&gclid=Cj0KCQjwjN-SBhCkARIsACsrBz6Eg6mFav0ztvq6FHT4-o-Fh_8zexo_pTTTB7UzKYD6ieS-H-vRuFIaAqJWEALw_wcB
+[UDEMY COURSE LINK](https://www.udemy.com/course/nestjs-zero-to-hero/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_77879424134_._ad_535397245863_._kw__._de_c_._dm__._pl__._ti_dsa-1007766171312_._li_1000065_._pd__._&matchtype=&gclid=Cj0KCQjwjN-SBhCkARIsACsrBz6Eg6mFav0ztvq6FHT4-o-Fh_8zexo_pTTTB7UzKYD6ieS-H-vRuFIaAqJWEALw_wcB
 )
 
 <p align="center">
