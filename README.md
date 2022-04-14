@@ -1,3 +1,6 @@
+## NestJS Zero to Hero - Modern TypeScript Back-end Development
+# Develop and deploy enterprise back-end applications following best practices using Node.js and TypeScript
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
