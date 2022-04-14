@@ -57,10 +57,12 @@ $ npm run start:prod
 # docker command
 docker run --name postgres-nest -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
 
-postgres-nest is the name of the container
-the docker port to the local machine port
-the environment variable the password
-run in detached mode the container is going to keep running
-word postgres is the actual container name stored on the cloud in Docker Hub
+-postgres-nest is the name of the container
+-the docker port to the local machine port
+-the environment variable the password
+-run in detached mode the container is going to keep running
+-word postgres is the actual container name stored on the cloud in Docker Hub
+-`docker container stop postgres-nest`
+-`docker container rm postgres-nest`
 
 ```
