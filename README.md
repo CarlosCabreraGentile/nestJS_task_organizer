@@ -51,16 +51,18 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## after installing docker and pgadmin
+## After installing docker and pgadmin
 
 ```bash
 # docker command
 docker run --name postgres-nest -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
 
-postgres-nest is the name of the container
-then set the docker port to the local machine port
-then set the enviroment variable the password
-run in detached mode the container is going to keep running
-last the word postgres is the actual container name stored on the cloud in Docker Hub
+-postgres-nest is the name of the container
+-the docker port to the local machine port
+-the environment variable the password
+-run in detached mode the container is going to keep running
+-word postgres is the actual container name stored on the cloud in Docker Hub
+-`docker container stop postgres-nest`
+-`docker container rm postgres-nest`
 
 ```
