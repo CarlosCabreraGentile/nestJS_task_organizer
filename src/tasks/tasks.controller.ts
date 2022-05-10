@@ -19,13 +19,17 @@ import { Task } from './task.entity';
 import { TasksService } from './tasks.service';
 
 @Controller('tasks')
+// protect and entire route, need to log in, get the jwt, and then can create a task or something else
 @UseGuards(AuthGuard())
 export class TasksController {
   constructor(private taskService: TasksService) {}
 
   @Get()
-  getTasks(@Query() filterDto: GetTasksFilterDto): Promise<Task[]> {
-    return this.taskService.getTasks(filterDto);
+  getTasks(
+    @Query() filterDto: GetTasksFilterDto,
+    @GetUser() user: User,
+  ): Promise<Task[]> {
+    return this.taskService.getTasks(filterDto, user);
   }
 
   @Get('/:id')

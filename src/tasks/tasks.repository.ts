@@ -1,4 +1,3 @@
-import { filter } from 'rxjs';
 import { User } from 'src/auth/user.entity';
 import { EntityRepository, Repository } from 'typeorm';
 import { CreateTaskDto } from './dto/create-task.dto';
@@ -8,9 +7,11 @@ import { Task } from './task.entity';
 
 @EntityRepository(Task)
 export class TasksRepository extends Repository<Task> {
-  async getTasks(filterDto: GetTasksFilterDto): Promise<Task[]> {
+  async getTasks(filterDto: GetTasksFilterDto, user: User): Promise<Task[]> {
     const { status, search } = filterDto;
     const query = this.createQueryBuilder('task');
+    // only get the task belongs to signed in user
+    query.where({ user });
 
     if (status) {
       // define the name of the query variable in this case 'status', and then provide a value ({status})
